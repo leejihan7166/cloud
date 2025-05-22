@@ -60,3 +60,6 @@ if uploaded_text is not None:
     ax.imshow(wc, interpolation='bilinear')
     ax.axis("off")
     st.pyplot(fig)
+
+else:
+    st.info("📄 텍스트 파일을 업로드하면 여기에 워드클라우드가 생성됩니다!")
